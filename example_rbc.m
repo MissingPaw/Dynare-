@@ -35,6 +35,8 @@ ap = a;
 %Solve model by first-order perturbation
 Solve_model;
 
+
+%Simulation
 T = 100;
 shocks = zeros(size(x,2),T);
 shocks(2,2) = 0.1;
